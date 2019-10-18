@@ -52,9 +52,9 @@ class PizzaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function slug($slug)
     {
-      $pizza = Pizza::with('image','topping')->where('slug',$id)->first();
+      $pizza = Pizza::with('image','topping')->where('slug',$slug)->first();
       return response()->json($pizza);
     }
 
