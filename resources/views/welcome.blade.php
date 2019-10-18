@@ -16,8 +16,8 @@
                 <div class="list-group">
                   <a href="/" class="list-group-item active">API LIST</a>
                   <a href="/pizza" target="_blank" class="list-group-item">Pizza List</a>
-                  <a href="#" class="list-group-item">Morbi leo risus</a>
-                  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                  <a href="/pizza/margherita-classic" target="_blank" class="list-group-item">Pizza Detail</a>
+                  <a href="/topping" target="_blank" class="list-group-item">All Toppings <a>
                   <a href="#" class="list-group-item">Vestibulum at eros</a>
                 </div>
             </div>
