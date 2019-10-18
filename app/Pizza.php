@@ -23,9 +23,5 @@ class Pizza extends Model
         return $this->hasMany(PizzaImage::class);
     }
 
-     public static function findBySlug($slug)
-    {
-        return static::where('slug', $slug)->first();
-    }
 
 }

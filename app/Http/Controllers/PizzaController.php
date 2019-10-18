@@ -54,7 +54,7 @@ class PizzaController extends Controller
      */
     public function show($id)
     {
-      $pizza = Pizza::with('image','topping')->findBySlug($id);
+      $pizza = Pizza::with('image','topping')->where('slug',$id)->first();
       return response()->json($pizza);
     }
 
