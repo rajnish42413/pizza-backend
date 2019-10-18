@@ -32,7 +32,7 @@ class PizzaController extends Controller
      */
     public function create()
     {
-        //
+      
     }
 
     /**
@@ -54,7 +54,8 @@ class PizzaController extends Controller
      */
     public function show($id)
     {
-        //
+      $pizza = Pizza::with('image','topping')->findBySlug($id);
+      return response()->json($pizza);
     }
 
     /**
