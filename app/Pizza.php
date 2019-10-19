@@ -20,7 +20,7 @@ class Pizza extends Model
 
     public function topping()
     {
-        return $this->hasMany(PizzaImage::class);
+        return $this->hasMany(PizzaTopping::class);
     }
 
 
