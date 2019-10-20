@@ -9,10 +9,10 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
-    <body>
-     <div class="container-fluid mt-5 mb-5 bg-faded">
+    <body class="bg-light">
+     <div class="container-fluid mt-5 mb-5 bg-light">
         <div class="row justify-content-center">
-            <div class="col-md-6 bg-white shadow">
+            <div class="col-md-6 bg-white sshadow-lg p-1">
                 <div class="list-group">
 
                   <a href="/" class="list-group-item active">API LIST</a>
