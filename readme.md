@@ -14,12 +14,6 @@
 Clone the project repository by running the command below if you use SSH
 
 ```bash
-git clone git@github.com:ammezie/tasksman.git
-```
-
-If you use https, use this instead
-
-```bash
 git clone https://github.com/rajnish42413/pizza-backend.git
 ```
 
