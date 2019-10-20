@@ -20,10 +20,14 @@
                   <a href="/pizza" target="_blank" class="list-group-item">Pizza List with default toppings</a>
                   <a href="/pizza/margherita-classic" target="_blank" class="list-group-item">Pizza Detail</a>
                   <a href="/pizza/margherita-classic" target="_blank" class="list-group-item">Pizza detail with default toppings</a>
-                  <a href="/topping" target="_blank" class="list-group-item">All Toppings <a>
+                  <a href="/topping" target="_blank" class="list-group-item">All Toppings</a>
                   
                 </div>
             </div>
+
+            <p><b>DEMO </b>: https://inspiring-pare-9849a7.netlify.com/</p>
+            <p> https://github.com/rajnish42413/pizza-front</p>
+            <p>https://github.com/rajnish42413/pizza-backend/</p>
         </div>
      </div>
     </body>
