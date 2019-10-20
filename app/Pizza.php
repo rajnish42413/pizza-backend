@@ -18,9 +18,9 @@ class Pizza extends Model
         return $this->hasMany(PizzaImage::class);
     }
 
-    public function topping()
+    public function toppings()
     {
-        return $this->hasMany(PizzaTopping::class);
+      return $this->belongsToMany(Topping::class,'pizza_default_toppings','pizza_id','topping_id');
     }
 
 

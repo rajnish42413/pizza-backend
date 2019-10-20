@@ -15,8 +15,8 @@ class PizzaController extends Controller
      */
     public function index()
     {
-        $pizza = Pizza::with('image','topping')->get();
-        return response()->json($pizza);
+        $pizzas = Pizza::with('toppings','image')->get();
+         return response()->json($pizzas);
     }
 
     public function toppings()
