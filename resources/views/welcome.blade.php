@@ -10,11 +10,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-     <div class="container-fluid mt-5 mb-5 bg-white">
+     <div class="container-fluid mt-5 mb-5 bg-faded">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-6 bg-white shadow">
                 <div class="list-group">
-                  
+
                   <a href="/" class="list-group-item active">API LIST</a>
                   <a href="/pizza" target="_blank" class="list-group-item">Pizza List</a>
                   <a href="/pizza" target="_blank" class="list-group-item">Pizza List with default toppings</a>
