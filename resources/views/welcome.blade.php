@@ -13,7 +13,7 @@
      <div class="container-fluid mt-5 mb-5 bg-light">
         <div class="row justify-content-center">
 
-            <div class="col-md-6 bg-white shadow-lg p-1">
+            <div class="col-md-6 bg-white shadow-lg p-1 offset-3">
                 <div class="list-group">
 
                   <a href="/" class="list-group-item active">API LIST</a>
@@ -26,12 +26,14 @@
                 </div>
             </div>
 
-           <div class="col-md-6 bg-white shadow-lg p-1">
+            <br>
+
+           <div class="col-md-12 bg-white shadow-lg p-1">
             <p><b>DEMO </b>: https://inspiring-pare-9849a7.netlify.com/</p>
             <p> https://github.com/rajnish42413/pizza-front</p>
             <p>https://github.com/rajnish42413/pizza-backend/</p>
           </div>
-          
+
         </div>
      </div>
     </body>
