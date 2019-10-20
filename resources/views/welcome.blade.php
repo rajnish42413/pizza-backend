@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body class="bg-light">
-     <div class="container-fluid mt-5 mb-5 bg-light">
+     <div class="container-fluid mt-5 mb-5 bg-light p-3">
         <div class="row justify-content-center">
 
             <div class="col-md-6 bg-white shadow-lg">
