@@ -1,4 +1,4 @@
-# Innoscripta Pizza Project
+# Pizza Project Backend
 
 ##Demo
 <a href="https://backend-pizza.herokuapp.com/" target="_blank" >DEMO HER</a>
